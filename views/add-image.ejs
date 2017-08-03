@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>One Pinterest - FCC</title>
+    </head>
+    
+    <body>
+        <% if (currentUser) { %>
+            <h1><%= currentUser.name %></h1>
+        <% } else { %>
+            <a href="https://fcc-api-projects-tokimatu.c9users.io/auth/twitter">Log in</a>
+        <% } %>
+        <form method="POST" action="/api/add-image">
+            <input type="text" name="url"></input>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

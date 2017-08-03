@@ -1,0 +1,5 @@
+Dados do DB d eproducao
+host     : 'us-cdbr-iron-east-03.cleardb.net',
+            user     : 'bd281f82a48624',
+            password : '1d9eb77f',
+            database : 'heroku_405464e70f8a025'

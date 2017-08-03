@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>One Pinterest - FCC</title>
+    </head>
+    
+    <body>
+        <% if (currentUser) { %>
+            <h1><%= currentUser.name %></h1>
+        <% } else { %>
+            <a href="https://one-pinterest-tokimatu.c9users.io/auth/twitter">Log in</a>
+        <% } %>
+    </body>
+</html>
